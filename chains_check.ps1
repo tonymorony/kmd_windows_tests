@@ -8,7 +8,7 @@ foreach ($coin in $coins) {
    $blocks = $cliJson.blocks
    $longest = $cliJson.longestchain
 
-   If ($blocks -le $longest) {
+   If ($blocks -match $longest) {
        $forked = $true
        Write-Host "$coin Possible Fork! Blocks $blocks < LongestChain $longest"
        }
