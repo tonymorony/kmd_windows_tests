@@ -20,3 +20,5 @@ foreach ($coin in $coins) {
        Write-Host "All coins are fine!"
    }
 }
+
+Read-Host -Prompt "Press Enter to exit"
