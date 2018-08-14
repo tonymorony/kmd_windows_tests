@@ -8,3 +8,6 @@ Have to put both to folder with executable Komodo-cli binaries.
 2. Run chains_check.ps1 - checking current sync status (tickers list is hardcoded for now)
 
 Better to run on powerful PC :)
+
+Test environment which I'm using: GCP compute instance, Intel Haswell 4 virtual CPU, 9.75 GB RAM 
+In previous test environment daemons crashed because of not enough resources (2 virtual CPU, 7.5 GB RAM usage) 
