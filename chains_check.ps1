@@ -15,10 +15,9 @@ foreach ($coin in $coins) {
    else {
        Write-Host "$coin - Blocks $blocks = LongestChain $longest"
    }
-
-   If ($forked -eq $false) {
-       Write-Host "All coins are fine!"
-   }
 }
+If ($forked -eq $false) {
+    Write-Host "All coins are fine!"
+    }
 
 Read-Host -Prompt "Press Enter to exit"
