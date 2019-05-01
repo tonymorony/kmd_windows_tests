@@ -22,7 +22,7 @@ Start-Process komodod.exe -args '-ac_name=BOTS -ac_supply=999999 -addnode=78.47.
 SLEEP $delay
 Start-Process komodod.exe -args '-ac_name=MGW -ac_supply=999999 -addnode=78.47.196.146'
 SLEEP $delay
-Start-Process komodod.exe -args '-ac_name=COQUI -ac_supply=72000000 -addnode=78.47.196.146'
+Start-Process komodod.exe -args '-ac_name=COQUI -ac_supply=72000000 -ac_ccactivate=200000 -addnode=78.47.196.146'
 SLEEP $delay
 Start-Process komodod.exe -args '-ac_name=WLC -ac_supply=210000000 -addnode=148.251.190.89' 
 SLEEP $delay
@@ -44,7 +44,7 @@ Start-Process komodod.exe -args '-ac_name=PIZZA -ac_supply=100000000 -addnode=78
 SLEEP $delay
 Start-Process komodod.exe -args '-ac_name=NINJA -ac_supply=100000000 -addnode=78.47.196.146'
 SLEEP $delay
-Start-Process komodod.exe -args '-ac_name=OOT -ac_supply=216000000 -addnode=174.138.107.226'
+Start-Process komodod.exe -args '-ac_supply=216000000 -ac_sapling=5000000 -addnode=174.138.107.226'
 SLEEP $delay
 Start-Process komodod.exe -args '-ac_name=BNTN -ac_supply=500000000 -addnode=94.130.169.205'
 SLEEP $delay
@@ -56,9 +56,9 @@ Start-Process komodod.exe -args '-ac_name=DSEC -ac_supply=7000000 -addnode=185.1
 SLEEP $delay
 Start-Process komodod.exe -args '-ac_name=GLXT -ac_supply=10000000000 -addnode=13.230.224.15'
 SLEEP $delay
-Start-Process komodod.exe -args '-ac_name=EQL -ac_supply=500000000 -addnode=46.101.124.153'
+Start-Process komodod.exe -args '-ac_name=EQL -ac_supply=500000000 -ac_ccactivate=205000 -addnode=46.101.124.153'
 SLEEP $delay
-Start-Process komodod.exe -args '-ac_name=ZILLA -ac_supply=11000000 -addnode=54.39.23.248'
+Start-Process komodod.exe -args '-ac_name=ZILLA -ac_supply=11000000 -ac_sapling=5000000 -addnode=51.68.215.104'
 SLEEP $delay
 Start-Process komodod.exe -args '-ac_name=RFOX -ac_supply=1000000000 -ac_reward=100000000 -addnode=78.47.196.146'
 SLEEP $delay
