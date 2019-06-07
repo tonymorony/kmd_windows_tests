@@ -1,5 +1,5 @@
 #Coins tickers input. Have to change to dynamic download.
-$coins=@("REVS","SUPERNET","DEX","PANGEA","JUMBLR","BET","CRYPTO","HODL","MSHARK","BOTS","MGW","COQUI","WLC","KV","CEAL","MESH","AXO","ETOMIC","BTCH","PIZZA","BEER","NINJA","OOT","BNTN","CHAIN","PRLPAY","DSEC","GLXT","EQL","ZILLA","RFOX","SEC","CCL","PIRATE","MGNX","PGT","KMDICE","DION","ZEX","KSB","OUR","ILN","RICK","MORTY","VOTE2019","COIN");
+$coins=@("REVS","SUPERNET","DEX","PANGEA","JUMBLR","BET","CRYPTO","HODL","MSHARK","BOTS","MGW","COQUI","WLC","KV","CEAL","MESH","AXO","ETOMIC","BTCH","PIZZA","BEER","NINJA","OOT","BNTN","CHAIN","PRLPAY","DSEC","GLXT","EQL","ZILLA","RFOX","SEC","CCL","PIRATE","MGNX","PGT","KMDICE","DION","ZEX","KSB","OUR","ILN","RICK","MORTY","VOTE2019","KOIN");
 $forked = $false
 
 #Have to change path to obsolete.
