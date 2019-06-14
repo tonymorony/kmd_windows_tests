@@ -44,7 +44,7 @@ Start-Process komodod.exe -args '-ac_name=PIZZA -ac_supply=100000000 -addnode=78
 SLEEP $delay
 Start-Process komodod.exe -args '-ac_name=NINJA -ac_supply=100000000 -addnode=78.47.196.146'
 SLEEP $delay
-Start-Process komodod.exe -args '-ac_supply=216000000 -ac_sapling=5000000 -addnode=174.138.107.226'
+Start-Process komodod.exe -args '-ac_name=OOT -ac_supply=216000000 -ac_sapling=5000000 -addnode=174.138.107.226'
 SLEEP $delay
 Start-Process komodod.exe -args '-ac_name=BNTN -ac_supply=500000000 -addnode=94.130.169.205'
 SLEEP $delay
